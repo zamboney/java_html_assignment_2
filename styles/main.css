@@ -1,0 +1,40 @@
+body{
+    font: 20px Arial, serf;
+    margin-top: 10px;
+}
+
+nav#main > a {
+    display:inline-block;
+    background:black;
+    padding:20px;
+    margin:5px;
+    color:white;
+    border: 1px solid mediumpurple;
+}
+
+nav#main > a.active {
+    background:gray;
+}
+
+
+p.main{
+    margin-top: 20px;
+}
+
+form {
+    width:100%;
+    padding-bottom:10px;
+    border-bottom: 5px double;
+}
+
+label {
+    width: 20%;
+    display:inline-block;
+    text-align: right;
+}
+
+button[type=submit] {
+    width:100%;
+    height:30px;
+    margin-top:10px;
+}

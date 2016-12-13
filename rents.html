@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Rents</title>
+    <style>
+        #bookId{
+            color:red;
+
+        }
+    </style>
+</head>
+<body>
+<nav id="main">
+    <a href="index.html">Home Page</a>
+    <a href="reader.html">Reader</a>
+    <a href="book.html">Books</a>
+    <a class="active" href="rents.html">Rent a Book</a>
+</nav>
+<form action="javascript:alert('custumerId: ' + document.getElementById('customerId').value + '\nbookId: ' + document.getElementById('bookId').value)">
+    <label for="bookId">Book Id: </label><input type="text" id="bookId"><label for="customerId">Customer
+    Id</label><input
+        type="text"
+        id="customerId">
+    <button type="submit">Rent</button>
+</form>
+</body>
+</html>

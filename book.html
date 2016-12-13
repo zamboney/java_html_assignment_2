@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/main.css">
+    <title>Books</title>
+</head>
+<body>
+<nav id="main">
+    <a href="index.html">Home Page</a>
+    <a href="reader.html">Reader</a>
+    <a class="active" href="book.html">Books</a>
+    <a href="rents.html">Rent a Book</a>
+</nav>
+<p class="main">
+
+<h2>New Book</h2>
+<form action="javascript:alert('name:'+document.getElementById('name').value)">
+    <label for="name">name:</label><input id="name" type="text" required/><br/>
+    <button type="submit">Create</button>
+</form>
+<h2>Remove Book</h2>
+<form action="javascript:alert('id:'+document.getElementById('id').value)">
+    <label for="id">id:</label><input type="text" id="id" required><br/>
+    <button type="submit">Remove</button>
+</form>
+</p>
+</body>
+</html>
